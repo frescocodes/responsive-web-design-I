@@ -330,8 +330,67 @@ ul {
 
 /* MOBILE DEVICES */
 
+@media (max-width: 800px) {
+    .container {
+        margin: 2% 4%;
+    }
+
+    header {
+        width: 100%;
+		display: flex;
+        /* position: fixed; */
+        flex-direction: column;
+        align-items: center;
+		/* background-color: lightgrey; */
+		overflow: hidden;
+		
+    }
+    
+
+    .navbar {
+        margin-top: 5%;
+        width: 100%;
+    }
+
+    .intro {
+        padding: 10% 0 10% 0;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .features-about {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .description-text {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .services-text, .vision-text, .product-text {
+        width: 30%;
+    }
+
+    #contact {
+        padding: 0 2% 0 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 500px) {
-    /* GENERAL */
+    /******** GENERAL *********/
 
     #intro, #features, #description, #contact {
         padding: 0 7%;
@@ -398,8 +457,7 @@ ul {
 		justify-content: center;
 	}
 	.intro-img {
-		margin-top: 5%;
-		width: 100%;
+		display: none;
 	}
 
 	.button {
@@ -433,3 +491,5 @@ ul {
 		width: 80%;
 	}
 }
+
+
