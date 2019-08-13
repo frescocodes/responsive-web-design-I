@@ -274,29 +274,6 @@ h2 {
 	margin: 3% 0 auto 0;
 }
 
-/* .ux-ui {
-	width: 47%;
-	padding: 3%;
-	border: 1px solid black;
-	background-color: #f1f2f2;
-}
-
-.digital-marketing {
-	width: 47%;
-	padding: 3%;
-	border: 1px solid black;
-	background-color: #f1f2f2;
-}
-
-.web-dev {
-	width: 47%;
-	padding: 3%;
-	border: 1px solid black;
-	background-color: #f1f2f2; 
-} 
-*/
-
-
 
 /* FACTS SECTION */
 
@@ -335,6 +312,11 @@ ul {
         margin: 2% 4%;
     }
 
+    .container-services {
+        margin: 2% 5%;
+        line-height: 1.5;
+    }
+
     header {
         width: 100%;
 		display: flex;
@@ -343,7 +325,6 @@ ul {
 		overflow: hidden;
     }
     
-
     .navbar {
         margin-top: 5%;
         width: 100%;
@@ -374,6 +355,29 @@ ul {
     #contact {
         padding: 0 2% 0 2%;
     }
+
+    .content-services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding: 3%; */
+    }
+    
+    .digital-design, .ux-ui, .digital-marketing, .web-dev, .ios-dev, .android-dev {
+        width: 95%;
+        padding: 3%;
+        border: 1px solid black;
+        background-color: #f1f2f2;
+        margin: 3% 0 auto 0;
+    }
+
+    .services-info-img {
+        display: none;
+    }
+
+    .facts-text {
+        width: 95%;
+    }
 }
 
 
@@ -398,6 +402,11 @@ ul {
         margin: 2% 0;
     }
 
+    .container-services {
+        margin: 2% 5%;
+        line-height: 1.5;
+    }
+    
 	header {
         width: 100%;
 		display: flex;
@@ -481,8 +490,23 @@ ul {
 		flex-direction: column;
 	}
 
+    .content-services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding: 3%; */
+    }
+    
+    .digital-design, .ux-ui, .digital-marketing, .web-dev, .ios-dev, .android-dev {
+        width: 95%;
+        padding: 3%;
+        border: 1px solid black;
+        background-color: #f1f2f2;
+        margin: 3% 0 auto 0;
+    }
+
 	.services-info-img {
-		width: 80%;
+		display: none;
 	}
 }
 
